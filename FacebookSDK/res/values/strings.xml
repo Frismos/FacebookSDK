@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2010-present Facebook.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_log_in_button">Log in with Facebook</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log in&#8230;</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged in</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not logged in</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    
+    
+        <string name="gallery_app_id">184</string>
+    
+    <string name="app_name">PicsArt</string>
+   	<string name="app_name_short">picsinstudio</string>
+    <string name="si_app_uid">picsinstudio</string>
+    <string name="app_package">picsinphoto</string>
+    <string name="app_type">photo</string>
+    <string name="socialType">android</string>
+    <string name="app_short_url">http://picsin.com/android</string>
+    <string name="configVersion">5</string>
+    <string name="props_google_analitics">UA-18611612-34</string>
+   
+    <string name="props_ad_provider">SOCIALIN</string>
+    <string name="props_debug_log_enabled">true</string>   
+    <string name="adsence_client_id">ca-mb-app-pub-1876933753768597</string>
+    <string name="adsence_company_name">Socialin.com</string>
+    <string name="adsence_keywords">photo pics</string>
+    <string name="adsence_channel_id">4447662230</string>   
+    <string name="facebook_app_id">108569252539536</string>
+    <string name="flickr_app_key">1345c846dbb17930e5193bdd3a139940</string>
+    <string name="flickr_app_secret">12ea6535bc4adcab</string>
+    <string name="twitter_app_consumer">N3aQqOLTNqrDcwTRTmUBOg</string>
+    <string name="twitter_app_consumer_secret">VSLR3p6DYYxS5l7LvAQmTfCtmDLfHwBUveKSbH9Bw</string>
+    <string name="gallery_name">picsinphoto</string>
+    
+    <!-- ~properties -->
+    
+     <!-- facebook -->
+    <string name="fb_accounts">Facebook Accounts</string>
+    <string name="fb_add_account">Add Account</string>
+    <string name="fb_no_album">You don\'t have albums.</string>
+    <!-- ~facebook -->
+    
+    <!-- generic strings -->
+    <string name="gen_close">Close</string>
+    <string name="gen_ok">Ok</string>
+    <string name="gen_yes">Yes</string>
+    <string name="gen_no">No</string>
+    <string name="gen_facebook">Facebook</string>
+    <string name="gen_twitter">Twitter</string>
+    <string name="gen_sms">SMS</string>
+    <string name="gen_email">Email</string>
+    <string name="gen_congratulation">Congratulation!</string>
+    <string name="gen_network_failed">Connection failed</string>
+    <string name="gen_network_enable_msg">This application requires network access. Enable mobile network or Wi-Fi to use the feature.</string>
+	<string name="gen_network_settings">Network Settings</string>
+    <string name="gen_not_enough_phone_storage">Not enough memory in phone storage.\nPlease remove some application to free at least 5 megabytes of memory.</string>
+    <string name="gen_not_space_at_sdcard">Not space available at SD card.\nPlease free at least 20 megabytes.</string>
+    
+    <string name="gen_logout_confirm">Are you sure you want to Logout?</string>
+    <!-- ~generic strings -->
+    
+    <!-- Facebook -->
+    <string name="fb_account_already_added">This account already added.</string>
+    
+    
+     <string name="warning_permission_required_for_internet">Application requires your permission to access Internet</string>
+   
+    <string name="checking_availability">Checking Availability</string>
+     <string name="account_already_added">This account already added.</string>
+     <string name="album_pictures_name">Album Pictures</string>
+     <string name="warning_not_allowed_to_post">You are not allowed to post on this user wall</string>
+     <string name="account_logging_out">Logging out...</string>
+     <string name="account_disconect_from_picsin">Are you sure you want to disconnect this account from PicsArt ?</string>
+    <string name="msg_connect_account">Connect Facebook account.</string>
+    <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
+    <!-- ~Facebook -->
+    
+
+    <string name="menu_like">Like PicsArt</string>
+    <string name="menu_comment">Comment App</string>
+    <string name="menu_facebook">Post to Facebook</string>
+    <string name="menu_share">Export</string>
+    <string name="menu_delete_recent_pics">Delete recent pictures</string>
+    
+    <string name="menu_item_tool">Tool</string>
+    <string name="menu_item_callout">Callout</string>
+    <string name="menu_item_text">Text</string>
+    <string name="menu_item_draw">Draw</string>
+    <string name="menu_item_sticker">Sticker</string>
+    <string name="menu_item_clipart">Clipart</string>
+    <string name="menu_item_collage">Add Photo</string>
+    <string name="menu_item_frame">Frame</string>
+    <string name="menu_item_effect">Effect</string>
+    <string name="menu_item_clear">Clear</string>
+    
+    <string name="menu_item_color">Color</string>
+    <string name="menu_item_shape">Shape</string>
+    <string name="menu_item_bg_color">Bg Color</string>
+    <string name="menu_item_line">Line</string>
+    <string name="menu_item_segments">Segments</string>
+    <string name="menu_new_fb_account">Connect with new account</string>
+    <string name="menu_fb_logout">Logout</string>
+    
+    <string name="menu_picsin_profile">PicsArt Profile</string>
+    
+    <string name="collage_menu_item_crop">Crop</string>
+    <string name="collage_menu_item_frame">Frame</string>
+    <string name="collage_menu_item_shape_crop">Shape</string>
+    <string name="collage_menu_item_free_crop">Free Crop</string>
+    <string name="collage_menu_item_effect">Effect</string>
+    
+	<string name="button_add_fb_tag">Add Facebook Tag</string>
+    <string name="button_add_tag">Add Tag</string>
+    <string name="button_done_tagging">Done Tagging</string>
+    <string name="button_upload">Upload</string>
+	<string name="button_publish">Upload And Publish</string>
+	<string name="button_new_album">New Album</string>
+	<string name="button_delete">Delete</string>
+	<string name="button_like">Like</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="button_edit">Edit</string>
+	<string name="button_export">Export</string>
+	<string name="button_post_comment">Post Comment</string>	
+    
+    <string name="button_exit">Exit</string>
+    <string name="button_save">Save</string>
+    <string name="button_done">Done</string>
+    <string name="button_update">Update</string>
+    <string name="button_start_again">Start Over</string>
+    <string name="button_allFriends">See All</string>
+    <string name="button_location_based_text">Location based</string>
+    <string name="button_time_based_text">Date/Time based</string>
+    <string name="button_my_profile">My Profile</string>   
+    <string name="button_save_sd">Save to SD card</string>
+    <string name="button_upload_facebook">Upload to Facebook</string>
+    <string name="button_upload_picsin">Upload to PicsArt</string>
+    <string name="button_post_to_fb_wall">Post to Facebook wall</string>
+    <string name="button_go_back_to_goo">Back to Goo</string>
+    <string name="btn_agree">Agree</string>
+    <string name="btn_login">Login</string>
+	<string name="btn_signup_by_fb">Connect with Facebook</string>
+	<string name="btn_signup">Sign up</string>
+	<string name="btn_reset_password">Reset Password</string>
+	<string name="btn_change_username">Save</string>
+	<string name="btn_change_loginname">Save</string>
+	<string name="btn_logout">Logout</string>
+	<string name="btn_search">Search</string>
+    <string name="btn_find_from_fb">Find from Facebook</string>
+
+    <string name="msg_save">Save picture to SD card</string>
+    <string name="msg_wallpaper_pic">Set as wallpaper</string>   
+    
+    <string name="msg_text_no_sdcard">SD card not available.</string>
+    <string name="msg_text_pic_saved">Picture Saved to PicsArt folder</string>   
+    
+    <string name="msg_still_loading">Still loading.. Try again in a moment please.</string>
+    <string name="msg_error_cannot_save_file">Photo cannot be set as a wallpaper.</string>
+    <string name="msg_error_no_network">No Network detected.\nEnable Network for best performance.</string>
+    <string name="msg_success_wallpaper_set">Photo set as wallpaper.</string>
+    <string name="msg_downloading">Downloading...</string>
+    
+    
+
+    <string name="msg_error_facebook_not_ready">Application is not ready for Facebook this time\nPlease restart application and try again</string>
+     <string name="msg_error_facebook_not_account_already_used">This Facebook account is already associated with other PicsArt account.\nPlease use other Facebook account or.\nLogout and Connect to PicsArt with this Account</string>
+    
+    <string name="msg_email_text">Hey, I just made something really awesome, Check this link from your phone, you ll LOVE it! %s</string>
+    
+    <string name="msg_thanks_for_becoming_fan">Thank You for becoming a Fan!</string>
+    <string name="msg_fail_becoming_fan">Fail becoming a Fan</string>
+    <string name="msg_save_before_closing">Save before closing?</string>
+    <string name="msg_clean_confirm">Clean all changes?</string>
+    <string name="msg_cancel_drawing_confirm">Cancel drawing?</string>
+    <string name="msg_login_fb">Login to FB to have more fan!</string>
+    <string name="msg_select_text_color">Text Color</string>
+    <string name="msg_text_orientation_vertical">vertical</string>
+     <string name="msg_text_orientation_horisontal">horizontal</string>
+    <string name="msg_empty_crop">Please select crop area</string>
+    <string name="msg_select_item_to_delete">Please select item to delete</string>
+    
+    
+    <string name="msg_installpro_message">Install the full version to use this feature. Full version advantages:\n \
+					\t1. Ads-free full screen\n \
+					\t2. Stretch Effect\n \ 
+					\t3. Frequent updates\n
+					\t4. More Clip Arts\n
+					\t5. More Frames\n 
+					\t6. More Stickers\n</string>
+					
+					
+	<string name="sin_button_buy">Buy PRO</string>
+    <string name="sin_button_install_free">Install Free</string>
+    <string name="sin_button_later">Later</string>
+   
+    <string name="image_pre_name">PicsArt</string>   
+    <string name="image_dir">PicsArt</string>   
+    <string name="recent_dir">.recent</string>  
+    <string name="cache_dir">.cache</string> 
+    <string name="download_dir">downloads</string> 
+	<string name="upload_tmp_dir">.uploadtmp</string>  
+    <string name="upload_tmp_image_dir">image</string>
+
+    <string name="safe_search_title">Safe Content</string>
+    <string name="safe_search_desc">Content is safe for children</string>
+    
+    <string name="title_select_sticker">Select Sticker</string>
+    <string name="title_select_shape">Select Shape</string>
+    <string name="title_select_collage">Preview</string>
+    <string name="title_select_clipart_category">Add Clip Art</string>
+    <string name="title_select_clipart">Select Clip Art</string>
+    <string name="title_select_frame_category">Add Frame</string>
+    <string name="title_select_frame">Select Frame</string>
+    <string name="title_select_effect">Choose Effect</string>
+    <string name="title_select_tools">Choose Tool</string>
+    <string name="title_select_text">Add Text</string>
+    <string name="title_select_callout">Add Callout</string>
+    <string name="title_select_collage_bg">Select Background</string>
+    <string name="title_select_collage_crop_shape">Select Shape For Crop</string>
+    <string name="title_select_callout_type">Select Callout</string>
+    <string name="title_location_based_text">Add location based text</string>
+    <string name="title_common_phrase">Add common phrase</string>
+    <string name="title_date_text">Add time based text</string>
+    <string name="title_add_text_dialog">ADD TEXT</string>
+    <string name="title_choose_mode">CHOOSE MODE</string>
+    <string name="title_title_kelaidoscope_preview">Kaleidoscope Preview</string>
+    
+    
+    <string name="dialog_resize_pic">Resize Picture</string>
+    <string name="dialog_brush_panel">Select brush</string>
+    
+    <string name="dialog_create_camera_shortcut_title">CREATE CAMERA SHORTCUT</string>
+    <string name="dialog_create_camera_shortcut_description">Do you need to create a shortcut for PicsArt Camera on desktop?\n\n It will be more convenient.\n\n You can also do it later from settings. </string>
+    
+    <string name="category">PicsArt.com</string> 
+    <string name="email_text">From PicsArt.com</string>
+    
+    <!-- location -->
+    <string name="msg_location_disabled">Cannot determine your location.</string>
+    <!-- /location -->
+    
+    <!-- common strings --> 
+    <string name="btn_become_a_fan">Become a Fan</string>
+    <string name="btn_you_a_fan">You are a Fan</string>
+    <string name="btn_update">Update</string>
+    <string name="lbl_fans">Fans</string>
+    <string name="lbl_quit">Quit</string>
+    <string name="lbl_update_available">Update Available</string>
+      <string name="lbl_settings">Settings</string>
+    
+    <!-- ~common strings //////////////////////////////////////////////////////// -->
+
+    
+    <string name="contacts_select_all">Select All</string>
+    <string name="title_contacts_share">Share With Contacts</string>
+    
+    <string name="sticker_small">Small</string>
+    <string name="sticker_medium">Medium</string>
+    <string name="sticker_large">Large</string>
+    
+      <!-- crop image -->
+    <string name="crop_label">Crop picture</string>
+    <string name="crop_savingImage">Saving picture\u2026</string>
+    <string name="crop_wallpaper">Wallpaper\u2026</string>
+    <string name="crop_save_text">Crop</string>
+    <string name="crop_discard_text">Cancel</string>
+    <string name="crop_multiface_crop_help">Tap a face to begin.</string>
+    <string name="crop_runningFaceDetection">Please wait\u2026</string>
+    
+    <string name="select_brush_size">Apply effect with touch.</string>
+    <string name="choose_effect_mode"> please choose effect type. </string>
+    <string name="effect_brush_mode"> Brush Mode </string>
+    <string name="effect_no_brush_mode"> Just Apply </string>
+    <!-- - -->  
+    
+
+   <!-- internal ad -->
+   <string name="message_post_to_fb_wall">POST TO FACEBOOK WALL</string>
+   <string name="message_login_to_fb">LOGIN TO FACEBOOK</string>
+   <string name="message_upload_to_fb">UPLOAD TO FACEBOOK</string>
+   <string name="message_like_picsin">LIKE  PICSIN</string>
+   <!-- /internal ad -->
+   
+
+
+    
+    <!-- picsin main menu -->
+    <string name="picsin_main_menu_photo">Photo</string>
+    <string name="picsin_main_menu_goo">Goo</string>
+    <string name="picsin_main_menu_camera">Camera</string>
+    <string name="picsin_main_menu_draw">Draw</string>
+    <string name="picsin_main_menu_kaleidoscope">Kaleidoscope</string>
+    <string name="picsin_main_menu_collage">Collage</string>
+    
+
+    <string name="picsin_photo">Picsart Photo</string>
+    <string name="picsin_goo">Picsart Goo</string>
+    <string name="picsin_draw">Picsart Draw</string>
+    <string name="picsin_camera">Picsart Camera</string>
+    
+    <!-- picsin camera --> 
+    <string name="picsin_camera_delete">Delete</string>
+    <string name="picsin_camera_camera">Camera</string>
+    <string name="picsin_camera_publish">Publish</string>
+    
+    
+   <!-- picsin choose photo from --> 
+    <string name="picsin_photo_gallery">Gallery</string>
+    <string name="picsin_photo_camera">Capture</string>
+    
+    <string name="picsin_photo_flickr">Flickr</string>
+    <string name="picsin_photo_picasa">Picasa</string>
+    <string name="picsin_photo_google">Google</string>
+    <string name="picsin_photo_picsIn">PicsArt</string>
+    
+    
+    
+
+ 
+ 						<!-- FACEBOOK -->
+    <string name="create_new_album">Create New Album</string> 
+    <string name="choose_friend">Choose a Friend</string>
+   <!-- Errors -->
+	<string name="error_message_network">Network error occurred</string>	
+	
+   <!-- Info -->
+    <string name="facebook_props_google_analitics">UA-18611612-21</string>	
+    <string name="fb_cache_dir">/sdcard/fbCache/</string>     
+    <string name="picasa_empty_album">Your selected album is empty.</string>
+    <string name="fb_tag_photo_text">In this photo: </string>
+    <string name="fb_album_name">Album Name: </string>
+    <string name="fb_album_desc">Album Desc: </string>          
+    
+    					 <!-- ui_common -->
+ 	
+	<string name="si_common_othergames_title">Market</string>
+	<string name="si_common_title">Socialin</string>
+
+	<string name="si_common_fan_msg_thanks_for_becoming_fan">Thank You for becoming a Fan!</string>
+	<string name="si_common_fan_msg_failed_becoming_fan">Something happened, please try again later.</string>
+
+	
+	
+	<string name="si_common_nonetwork_button_open_settongs">Network Settings</string>
+    
+    
+    						 <!-- GALLERY -->
+    						 
+   <string name="error_message_empty_gallery">Your gallery is empty.</string>
+	<string name="error_message_null_item_id">You must specify item id.</string>
+	<string name="error_message_something_wrong">Something goes wrong, please try again.</string>
+		
+	<string name="text_add_caption">Add Caption...</string>
+	<string name="text_add_comment">Add Comment...</string>
+	<string name="text_report_abuse"><u>Report abuse</u></string>
+	
+	<string name="menu_my_profile">My Profile</string>
+	<string name="menu_terms">Terms</string>
+	<string name="menu_privacy">Privacy</string> 
+	
+								<!-- UI_PHOTO -->
+	
+	 <string name="sin_photo_crop_skip">Skip</string>
+    <string name="sin_photo_crop_multiface_crop_help">Tap a face to begin.</string>  
+
+                                <!-- PROFILE -->
+    <string name="profile_need_sign_agreement">Your should activate your PicsArt account.\n Go to PicsArt profile and accept Service Agreement to activate profile.</string>
+   	<string name="msg_find_user_not_found">No user found with requested search parameter.</string>
+	<string name="txt_reset_password">
+	<b>Enter your email address below to have your password reset and emailed to you</b>
+	</string>
+	<string name="txt_forgot_password">
+		<u>Forget password ?</u>
+	</string>
+	
+	<string name="msg_please_wait">Please wait...</string>
+	<string name="msg_loading">Loading...</string>
+	<string name="msg_loading_albums">Loading albums, please wait...</string>
+	
+    <string name="msg_error_no_network_connection">No Network Connection</string>
+    <string name="msg_fb_connect_success">Successfully connected to Facebook!</string>
+    <string name="msg_error_fb_connect_fail">Failed connect with Facebook!</string>
+    <string name="msg_error_server_connect_fail">Cannot communicate with Servers.\n please check network connection and try again later</string>
+    <string name="msg_unique_username_desc">Please enter <b>User name</b>. \nThis is last step of creating your <b>PicsArt profile</b>. \n<b>User name</b> will be used in your <b>PicsArt posts</b>.</string>
+    <string name="msg_thanks_for_posting">Thanks for posting.</string>
+   
+	<string name="msg_yes">Yes</string>
+	<string name="msg_no">No</string>
+	
+	<!-- titles -->
+	<string name="profile_title_find_friends">Find Friends</string>
+	<string name="profile_title_account_settings">Account Settings</string>
+	<string name="profile_title_reset_password">Reset Password</string>
+	<string name="profile_title_edit_diplay_name">Your Full Name</string>
+	<string name="profile_title_edit_email">Change Email</string>
+	<string name="profile_title_edit_password">Change Password</string>
+	<string name="profile_title_my_profile">My Profile</string>
+	
+    <!-- login layout-->
+    <string name="profile_connect_with_picsin">Connect with PicsArt account</string>
+    <string name="profile_login_password_not_match">Login or password does not match! Please type again.</string>
+    <string name="profile_txt_login_success">Login Successfully!</string> 
+    
+    <!-- logout -->
+    <string name="profile_msg_logout_confirm">Are you sure you want to Logout from Socialin?</string> 
+    
+    <!-- registration layout -->
+    <string name="profile_create_picsin_account">Create PicsArt account</string>
+    <string name="profile_txt_have_account">Already have an account?</string>
+    <string name="profile_txt_name">Your Full Name: </string>
+    <string name="profile_txt_login">User Name: </string>
+    <string name="profile_txt_email">Email: </string>
+    <string name="profile_txt_pwd">Password: </string>
+    <string name="profile_btn_create">Create</string>
+    
+	<string name="msg_reg_please_wait">Please be Patient..\nIt can take several minutes.." +"Now:\n\n1. Creating Account.\n2. Sending confirmation email.</string>
+    <string name="msg_reg_success">Successfully authenticated!</string>
+    <string name="msg_reg_fail">Problem with registering user please try again later.</string>
+    <string name="msg_reg_fb_already_exists">Facebook user already registered, merging accounts</string>
+    <string name="msg_reg_socialin_already_exists"> Socialin User already exist</string>
+    
+    <string name="error_empty_name">Name cannot be empty.</string>
+    <string name="error_empty_password">Password cannot contain white space.</string>
+    <string name="error_empty_password_confirm">Password confirmation cannot contain white space.</string>
+    <string name="error_invalid_email">Email format is not valid!</string>
+    
+    <string name="error_pwd_and_confirm_not_match">Password and confirmation does not match!</string>
+    <string name="error_pwd_length">Password length must  be more than 6 letters!</string>
+    <string name="error_smth_wrong">Something goes wrong, please restart application and try again!</string>
+    <string name="msg_terms_read">To use PicsArt Profile and Share functionality you must Agree to the Terms of Service.</string>
+    
+   <!-- public-profile layout -->
+    <string name="profile_btn_follow">Follow</string>
+    <string name="profile_btn_unFollow">Unfollow</string>
+    <string name="profile_btn_find_friends">Find Friends</string>
+    <string name="profile_btn_photos">photos</string>
+    <string name="profile_btn_followings">followings</string>
+    <string name="profile_btn_followers">followers</string>
+    
+    <string name="msg_error_not_permitted">Operation not permitted!</string>
+    <string name="msg_error_follow_yourself">You cannot follow  yourself!</string>
+    
+    <!-- account settings layout -->
+    <string name="profile_msg_facebook_user_exist">This Facebook account already registered in PicsArt, \nUse other Facebook account or\nLogout and connect to PicsArt with this.</string>
+   	<string name="btn_change">Change</string>
+   	<string name="btn_import">Import</string>
+   	
+   	<!-- find freinds layout -->
+   	<string name="profile_txt_name_or_email">Name or Email </string>
+	<string name="profile_txt_people_you_may_know">People you may know</string>
+   	<string name="profile_txt_find_more">Find more ...  </string>
+   	<string name="profile_msg_too_many_results">Too many results, please refine your search.</string>
+ 
+    
+    <!-- reset password -->
+    <string name="profile_reset_password_success">New password sent to your email!\nPlease check your email.</string>
+    <string name="profile_reset_password_fail">Password Reset Failed!</string>
+    
+    <!-- edit display name -->
+    <string name="profile_edit_display_name_fail">Cannot change your display name! Please try again later.</string>
+    
+    <!-- edit email -->
+    <string name="error_edit_email_empty_password">Please enter current password!</string>
+    <string name="error_edit_email_not_unique">Email already exist please use other email!</string>
+    <string name="error_edit_email_not_registered">Email update failed, user not registered yet to have email!</string>
+ 	<string name="error_edit_email_password_not_match">Wrong password! Please try again.</string>
+ 	
+ 	<!-- edit password -->
+    <string name="error_edit_pwd_wrong">Current password is wrong!</string>
+    <string name="error_edit_pwd_invalid_format">Password should not contain white spaces and should be not less than 6 letters!</string>
+ 	<string name="error_edit_pwd_not_match_with_confirm">New password and confirmation does not match!</string>
+ 	<string name="error_edit_pwd_not_registered">Password update failed, user not registered yet!</string>
+ 	
+ 	<!-- upload avatar -->
+ 	   <string name="error_invalid_image">Invalid image format !</string>
+ 	   
+ 	                                 <!-- SHARE -->
+ 	                                 
+     <string name="sin_share_title">Export</string>
+    <string name="sin_share_sdcard_notavailable">No SD card detected\\Please check your SD card.</string>
+    <string name="sin_share_saved_in">File saved in </string>
+    
+    <string name="msg_text_alredy_exists">A file with same name alredy exists. Would you like to replace the existing file? </string>
+    <string name="sin_share_save_to_sd_card_title">Save as ...</string>
+    <string name="sin_share_send_sms_title">Send SMS</string>
+    <string name="sin_share_save_to_sd_filename">Filename</string>
+    <string name="sin_share_save_to_sd_package_name">Folder</string>
+    
+    <string name="sin_share_upload_into_gallery_success">Photo was successfully uploaded into Gallery.</string>
+    <string name="sin_share_upload_into_gallery_failed">Sorry, failed uploading into Gallery.</string>
+    
+    <string name="sin_share_upload_to_flickr_success">Your picture was uploaded to Flickr successfully.</string>
+    <string name="sin_share_upload_to_picasa_success">Your picture was uploaded to Picasa successfully.</string>
+    <string name="sin_share_upload_to_twitter_success">Your picture was posted to Twitter successfully.</string>
+    <string name="sin_share_upload_to_picsin_gallery_success">Your picture was uploaded to PicsArt Gallery successfully.</string>
+    
+    <string name="sin_share_upload_to_picasa_failed">There was a problem with connection, please try later.</string>
+   
+    <string name="sin_share_post_failed">There was a problem with posting, please try later.</string>
+   
+    <string name="sin_share_upload_to_picsin_gallery_failed">There was a problem with uploading, please try later.</string>
+    
+    <string name="sin_share_fb_access_token_error">The Facebook connection was lost, please try again.</string>
+    
+    <string name="si_share_network_error">Network error occurred.</string>
+    <string name="si_share_still_loading">Still loading.. Try again in a moment please.</string>
+
+    <string name="si_export_type_save">- Save Picture -</string>
+    <string name="si_export_type_share">- Share Picture via-</string>
+    <string name="si_export_type_send">- Send Picture via-</string>
+    <string name="si_export_type_set">- Set Picture As -</string>
+   
+    
+    <string name="si_export_sdcard">SD card</string>
+    <string name="si_export_wallpaper">Wallpaper</string>
+    
+    <string name="si_export_messaging">Messaging</string>
+    <string name="si_export_compose">Compose</string>
+	
+	
+		<!--   UPLOAD -->
+	
+	<string name="txt_upload_title">Upload</string>
+	<string name="txt_upload_choose_album">Choose Album</string>
+	<string name="txt_upload_album_name">Album Name</string>
+	<string name="txt_upload_new">New</string>
+	<string name="txt_upload_add_fb_tag">Add Facebook Tag</string>
+	<string name="txt_upload_post_to_picsin">Upload to PicsArt</string>
+	<string name="txt_upload_description">Description...</string>
+	<string name="txt_upload_disconnected">Disconnected</string>
+	<string name="txt_upload_connected">Connected</string>
+	<string name="txt_upload_add_standart_text">Add Standart Text</string>
+	
+	<string name="reward_fullscreen_message">You\'ve got bonus! Enjoy ads-free PicsArt next time you start it.</string>
+	
+	<!-- NEW STRINGS -->
+<string name="post_to_friend_wall">Post To Your Friend Wall</string>
+<string name="loading_photos">Loading Photos, please wait...</string>
+<string name="loading_albums">Loading Albums, please wait...</string>
+<string name="uploading">"Uploading, please wait...</string>
+<string name="loading">"Loading, please wait...</string>
+<string name="loading_new_feeds">Loading New Feeds, please wait...</string>
+<string name="no_more_photos">No more photos.</string>
+<string name="no_new_feeds">You don\'t have new feeds.</string>
+<string name="album_empty">album is empty.</string>
+<string name="no_album">No albums found.</string>
+<string name="loading_friends">Loading Friends, please wait...</string>
+<string name="determining_location">Determining location...</string>
+<string name="want_to_logout">Are you sure you want to Logout ?</string>
+<string name="enter_text">Please enter text</string>
+<string name="sending">"Sending Please wait...</string>
+<string name="working">Working...</string>
+<string name="fail_to_connect_camera_service">Fail to connect to camera service</string>
+<string name="fail_to_start_camera_preview">Fail to start camera preview</string>
+<string name="not_supported">Not supported</string>
+<string name="cant_save_into_sd_card">Can\'t save file into SD card.</string>
+<string name="still_working">Still Working. Please wait...</string>
+<string name="failed_loading_image_resolution">Failed loading image with resolution</string>
+<string name="loading_less_resolution">Will try loading with less resolution...</string>
+<string name="saving">saving...</string>
+<string name="uploaded_to_fb">Your picture is uploaded to Facebook successfully.</string>
+<string name="success">Success.</string>
+<string name="try_again">Please try again.</string>
+<string name="too_small_img">Image is too small.</string>
+<string name="touch_to_draw">Touch to draw text.</string>
+<string name="no_space_on_SDcard">No Space on SD card.</string>
+<string name="check_network">Check Network Connection!</string>
+<string name="album_name">Album name can not be empty.</string>
+<string name="continue_uploading">Thank you ,\n Please continue uploading.</string>
+<string name="empty_comment">Comment can not be empty.</string>
+<string name="thanks_for_reporting">Thank you for your reporting.</string>
+<string name="already_reported">You have already reported this item.</string>
+<string name="sure_want_to_delete">Are you sure you want to delete?</string>
+<string name="empty_usename">Username should not be empty.</string>
+<string name="no_symbols_usename">Username shoud not have special symbols.</string>
+<string name="usename_in_use">Sorry, but this name is already in use, please choose another one.</string>
+<string name="restart_app">Something goes wrong!\nPlease restart application.</string>
+<string name="invalid_phone_number">Invalid phone number</string>
+<string name="successful_wall_post">Your wall post was successfull.</string>
+<string name="reached_wall_post_limit">You have reached your wall post limit.</string>
+<string name="say_something">Say something ...</string>
+<string name="search_text">Search Text</string>
+<string name="my_albums">My Albums</string>
+<string name="search_public_photos">Search from public photos</string>
+<string name="album">Album:</string>
+<string name="fb_albums_text">My Albums</string>
+<string name="fb_friends_text">Friends</string>
+<string name="fb_my_photos">My Photos</string>
+<string name="fb_news_feed_text">News Feed</string>
+<string name="fb_search_txt">Search</string>
+<string name="fb_no_albums">You have not created albums.</string>
+    
+</resources>
